@@ -1,0 +1,51 @@
+<svg width="1024" height="1024" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!--
+    DayMory — App Icon
+    Conceito C · Fundo Branco
+    Versão: 1.0
+
+    Anatomia do ícone:
+    · Forma de bookmark (pentágono com ponta inferior) — a "página do dia"
+    · Barra vertical esquerda — coluna de tempo / linha do dia
+    · Linhas horizontais em cascata — memórias e tarefas empilhadas (opacidade decrescente = passado)
+    · Linha azul activa — a tarefa/memória do momento presente
+    · Ponto terminal — marcador "hoje", o cursor do dia
+    · Topo da forma — separador de cabeçalho / início do dia
+  -->
+
+  <!-- Fundo: branco com borda subtil -->
+  <rect width="120" height="120" rx="26" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Forma bookmark — a página do dia -->
+  <path
+    d="M38,16 L82,16 L82,88 L60,104 L38,88 Z"
+    fill="#F8FAFC"
+    stroke="#E2E8F0"
+    stroke-width="1.2"
+    stroke-linejoin="round"
+  />
+
+  <!-- Cabeçalho da página — início do dia -->
+  <rect x="38" y="16" width="44" height="5" rx="2" fill="#E2E8F0"/>
+
+  <!-- Barra lateral — coluna de tempo, eixo do dia -->
+  <rect x="44" y="30" width="4" height="52" rx="2" fill="#CBD5E1"/>
+
+  <!-- Memória 1 — mais recente / mais destacada -->
+  <rect x="52" y="30" width="24" height="5" rx="2.5" fill="#2563EB"/>
+
+  <!-- Memória 2 -->
+  <rect x="52" y="40" width="17" height="4" rx="2" fill="#2563EB" opacity="0.5"/>
+
+  <!-- Memória 3 -->
+  <rect x="52" y="50" width="21" height="4" rx="2" fill="#2563EB" opacity="0.35"/>
+
+  <!-- Memória 4 — mais antiga / mais apagada -->
+  <rect x="52" y="60" width="13" height="4" rx="2" fill="#2563EB" opacity="0.2"/>
+
+  <!-- Linha activa — tarefa / memória do presente -->
+  <rect x="52" y="72" width="24" height="6" rx="3" fill="#2563EB"/>
+
+  <!-- Ponto "hoje" — marcador do momento presente -->
+  <circle cx="81" cy="75" r="5" fill="#1E3A8A"/>
+</svg>
