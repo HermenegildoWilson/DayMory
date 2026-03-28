@@ -1,0 +1,139 @@
+🧩 EPICS (macro funcionalidades)
+
+Cada Epic vira um grupo de issues.
+
+🥇 EPIC 1 — Setup & Foundation
+Issues:
+
+1. Inicializar projeto React Native
+
+Setup base
+Configuração de pastas
+
+2. Configurar Supabase
+
+Criar projeto
+Configurar autenticação
+
+3. Estrutura base do app
+
+Navegação (React Navigation)
+Tema global
+
+4. Setup de estado global
+
+Zustand ou Redux Toolkit
+🥈 EPIC 2 — Autenticação
+
+5. Tela de Login
+
+UI
+Validação
+
+6. Tela de Registro
+
+Criar conta
+
+7. Persistência de sessão
+
+Manter login ativo
+
+8. Logout
+
+Limpar estado + sessão
+🥉 EPIC 3 — Tasks (MVP CORE)
+
+9. Criar tarefa
+
+Título
+Descrição
+Data
+
+10. Listar tarefas
+
+Ordenação por data
+
+11. Marcar como concluída
+
+12. Editar tarefa
+
+13. Deletar tarefa
+
+🏗️ EPIC 4 — Offline First
+
+🔥 (Esse é teu diferencial)
+
+14. Implementar armazenamento local
+
+AsyncStorage ou SQLite
+
+15. Criar camada de sync
+
+Detectar online/offline
+
+16. Sync: local → Supabase
+
+17. Sync: Supabase → local
+
+18. Resolver conflitos (updated_at)
+
+🔁 EPIC 5 — Hábitos
+
+19. Criar hábito
+
+Nome
+Frequência
+
+20. Marcar hábito como concluído
+
+21. Histórico de hábitos
+
+22. Streak (dias consecutivos)
+
+🔔 EPIC 6 — Notificações
+
+23. Setup notificações
+
+24. Lembrete de tarefas
+
+25. Lembrete de hábitos
+
+📊 EPIC 7 — Dashboard
+
+26. Tela de estatísticas
+
+27. Tempo produtivo
+
+28. Taxa de conclusão
+
+29. Gráficos simples
+
+🧠 EPIC 8 — Inteligência (pseudo-IA)
+
+30. Detectar tarefas atrasadas
+
+31. Detectar hábitos falhados
+
+32. Gerar insights
+
+“Você falhou 3 dias”
+
+33. Sugestões automáticas
+
+🎨 EPIC 9 — UI/UX Refinado
+
+34. Melhorar design geral
+
+35. Animações
+
+36. Feedback visual
+
+🚀 EPIC 10 — Produção
+
+37. Testes finais
+
+38. Otimização de performance
+
+39. Build APK
+
+40. Documentação (README forte)
